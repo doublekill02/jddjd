@@ -7,5 +7,5 @@ print (u"执行随机延时，请耐心等待")
 import string
 import random
 import time
-time.sleep(random.randint(1,60))
-print (u"执行完毕，开始运行脚本")
+time.sleep(random.randint(1,7))
+print (u"CAOcao艹，开始运行脚本")
