@@ -5,6 +5,8 @@ name: jd_get_sharecode（手动）
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '20 22 * * *'
   watch:
     types: started
   repository_dispatch:
