@@ -6,7 +6,7 @@ name: jd_beauty
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 4,11,23 * * *'
+    - cron: ''
   watch:
     types: started
   repository_dispatch:
