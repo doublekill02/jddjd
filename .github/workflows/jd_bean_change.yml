@@ -5,7 +5,7 @@ name: 昨日收益
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 0 * * *'
+    - cron: '5 23 * * *'
   watch:
     types: started
   repository_dispatch:
