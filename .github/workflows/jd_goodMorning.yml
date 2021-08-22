@@ -29,9 +29,9 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【京豆变动通知】'
+      - name: '运行 【goodMorning】'
         run: |
-          node jd_bean_change.js
+          node jd_goodMorning.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
